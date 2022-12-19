@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="CSS/JS/jquery-3.6.2.min.js"></script>
+    <link rel="stylesheet" href="CSS/estilosind.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header-global">
+            <nav class="header-pag">
+                <img class="icon-menu" src="CSS/IMG/menu.png" alt="">
+                <ul class="header-options">
+                    <li>Shop
+                        <ul class="header-shop">
+                            <li>Hombre
+                                <ul class="header-men">
+                                    <li>Polo</li>
+                                    <li>Pantalon</li>
+                                </ul>
+                            </li>
+                            <li>Mujer
+                                <ul class="header-women">
+                                    <li>Blusa</li>
+                                    <li>Joger</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>About</li>
+                    <li>Gifting</li>
+                    <li><img src="CSS/IMG/search-regular-24.png" alt=""></li>
+                </ul>
+    
+                <h1> <a href="index.html">SHOP CENTER</a> </h1>
+    
+                <div class="header-icons">
+                    <a href="login.html"><img src="CSS/IMG/user-circle-regular-24.png" alt="" width="30px"></a>
+                    <button class="button-buy"><img src="CSS/IMG/cart-regular-24.png" alt="" width="30px"></button>
+                </div>
+            </nav>
+            <div id="list-buy" >
+                <button class="button-close"><img id="img-icon_close" class="img-close" src="CSS/IMG/x-regular-24.png" alt=""></button>
+
+                <div id="content-list_compras" class="content-list">
+                    <div class="total-buy"></div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    
+
+    <section class="body-pag">
+
+        <div class="descrip-title">
+            <h2>Descripcion</h2>
+
+        </div>
+        
+        <div class="card-items_6" category="mujeres">
+           
+            <span class="card-text_6">
+                <h2>Blusa verano</h2>
+                <div>
+                    <p>Size</p>
+                    <ul>
+                        <li class="option-size_6"> 
+                            <input type="radio" id="option-pol6_s" name="sizes_6" checked> 
+                            <label for="option-pol6_s">S</label> </li>
+                        <li class="option-size_6"> 
+                            <input type="radio" id="option-pol6_m" name="sizes_6"> 
+                            <label for="option-pol6_m">M</label> </li>
+                        <li class="option-size_6"> 
+                            <input type="radio" id="option-pol6_x" name="sizes_6"> 
+                            <label for="option-pol6_x">X</label> </li>
+                        <li class="option-size_6"> 
+                            <input type="radio" id="option-pol6_xl" name="sizes_6"> 
+                            <label for="option-pol6_xl">XL</label> </li>
+                    </ul>
+                </div>
+                <p>S/ 80</p>
+                <button onclick="agregarCompras(80,'Blusa Verano')">Agregar</button>
+            </span>
+        </div>
+
+        <div class="descrip-text">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+               Architecto ut totam maxime maiores veritatis, eligendi eius 
+               nulla laudantium ratione. Voluptatibus consectetur id iure 
+               nesciunt ad recusandae incidunt deleniti architecto eligendi!</p>
+        </div>
+
+    </section>
+
+    <footer class="footer-content">
+        <section class="footer-section_1">
+            <ul class="footer-section_title--1">
+                <li class="list-hombres" category="hombre"> <a href="index.html">Hombre</a> </li>
+                <li class="list-mujeres" category="mujer"> <a href="index.html">Mujer</a> </li>
+            </ul>
+            <ul class="footer-redes">
+                <li><img src="CSS/IMG/instagram-logo-24.png" alt=""></li>
+                <li><img src="CSS/IMG/facebook-logo-24.png" alt=""></li>
+            </ul>
+        </section>
+
+        <section class="footer-section_2">
+            <h3>Hombre Shop</h3>
+            <ul>
+                <li> <a href="polo1.html">Polo Manga Corta</a> </li>
+                <li> <a href="polo2.html">Polo Manga Corta Hombre Bearclif</a> </li>
+                <li> <a href="polo3.html">Polo Manga Corta Hombre Basement</a> </li>
+                <li> <a href="polo4.html">Polo Hombre Mango</a> </li>
+            </ul>
+        </section>
+
+        <section class="footer-section_3">
+            <h3>Mujer Shop</h3>
+            <ul>
+                <li> <a href="blus1.html">Blusa Mujer Safira</a> </li>
+                <li> <a href="blus2.html">Blusa Mujer Sami</a> </li>
+                <li> <a href="blus3.html">Blusa Mujer Anastasia</a> </li>
+                <li> <a href="blus4.html">Blusa Mujer Oceana</a> </li>
+            </ul>
+        </section>
+
+        <section class="footer-section_4">
+            <h3>Contact</h3>
+            <ul>
+                <li>EMAIL US</li>
+                <li>7374920@certus.pe</li>
+                <li>Number</li>
+                <li>+61 466 986 490</li>
+            </ul>
+
+        </section>
+
+
+    </footer>
+
+    <script src="CSS/JS/indes.js"></script>
+    
+</body>
+</html>

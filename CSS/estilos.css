@@ -1,0 +1,1026 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.icon-menu{
+    display: none;
+}
+
+.header-global{
+    background-color: rgb(243, 236, 226);
+    height: 500px;
+}
+
+.header-pag{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    padding: 50px;
+}
+
+.header-pag h1{
+    justify-self: center;
+    align-self: start;
+    font-size: 50px;
+}
+
+.header-pag h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-icons{
+    justify-self: right;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.header-options{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.header-shop{
+    display: none;
+}
+
+.header-men{
+    display: none;
+}
+
+.header-women{
+    display: none;
+}
+
+.body-pag{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.card-items_1{
+    background-image: url(IMG/polo1.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.card-text_1{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr 2fr;
+    gap: 5px;
+    align-self: end;
+    
+}
+
+.card-text_1--style{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr 2fr;
+    gap: 5px;
+    align-self: end;
+    display: none;
+}
+
+.card-text_1 h2{
+    justify-self: center;
+}
+
+.card-text_1 p{
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+.card-text_1 div p{
+    font-size: 15px;
+}
+
+.card-text_1 div{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    gap: 30px;
+}
+
+.card-text_1 div ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.card-text_1 div ul li{
+    justify-self: center;
+    padding: 5px;
+}
+
+.option-size_1{
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.option-size_1::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(59, 59, 59);
+    transition: all .5s ease-out;
+}
+
+.option-size_1:hover::after{
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+
+.card-text_1 button{
+    margin: 10px;
+    padding: 10px;
+    background: transparent;
+    transition: all .5s ease-in-out;
+}
+
+.card-text_1 button:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    transition: all .3s ease-in-out;
+}
+
+.card-text_1 ul{
+    list-style: none;
+}
+
+.card-items_2{
+    background-image: url(IMG/polo2\ front.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.card-text_2{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr 2fr;
+    gap: 5px;
+    align-self: end;
+    
+}
+
+.card-text_2--style{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr 2fr;
+    gap: 5px;
+    align-self: end;
+    display: none;
+}
+
+.card-text_2 h2{
+    justify-self: center;
+}
+
+.card-text_2 p{
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+.card-text_2 div p{
+    font-size: 15px;
+}
+
+.card-text_2 div{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    gap: 30px;
+}
+
+.card-text_2 div ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.card-text_2 div ul li{
+    justify-self: center;
+    padding: 5px;
+}
+
+.option-size_2{
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.option-size_2::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(59, 59, 59);
+    transition: all .5s ease-out;
+}
+
+.option-size_2:hover::after{
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+
+.card-text_2 button{
+    margin: 10px;
+    padding: 10px;
+    background: transparent;
+    transition: all .5s ease-in-out;
+}
+
+.card-text_2 button:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    transition: all .3s ease-in-out;
+}
+
+.card-text_2 ul{
+    list-style: none;
+}
+
+.card-items_3{
+    background-image: url(IMG/polo3\ front.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.card-text_3{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr 2fr;
+    gap: 5px;
+    align-self: end;
+    
+}
+
+.card-text_3--style{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr 2fr;
+    gap: 5px;
+    align-self: end;
+    display: none;
+}
+
+.card-text_3 h2{
+    justify-self: center;
+}
+
+.card-text_3 p{
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+.card-text_3 div p{
+    font-size: 15px;
+}
+
+.card-text_3 div{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    gap: 30px;
+}
+
+.card-text_3 div ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.card-text_3 div ul li{
+    justify-self: center;
+    padding: 5px;
+}
+
+.option-size_3{
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.option-size_3::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(59, 59, 59);
+    transition: all .5s ease-out;
+}
+
+.option-size_3:hover::after{
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+
+.card-text_3 button{
+    margin: 10px;
+    padding: 10px;
+    background: transparent;
+    transition: all .5s ease-in-out;
+}
+
+.card-text_3 button:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    transition: all .3s ease-in-out;
+}
+
+.card-text_3 ul{
+    list-style: none;
+}
+
+.card-items_4{
+    background-image: url(IMG/polo4\ front.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.card-text_4{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr 2fr;
+    gap: 5px;
+    align-self: end;
+    
+}
+
+.card-text_4--style{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr 2fr;
+    gap: 5px;
+    align-self: end;
+    display: none;
+}
+
+.card-text_4 h2{
+    justify-self: center;
+}
+
+.card-text_4 p{
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+.card-text_4 div p{
+    font-size: 15px;
+}
+
+.card-text_4 div{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    gap: 30px;
+}
+
+.card-text_4 div ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.card-text_4 div ul li{
+    justify-self: center;
+    padding: 5px;
+}
+
+.option-size_4{
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.option-size_4::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(59, 59, 59);
+    transition: all .5s ease-out;
+}
+
+.option-size_4:hover::after{
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+
+.card-text_4 button{
+    margin: 10px;
+    padding: 10px;
+    background: transparent;
+    transition: all .5s ease-in-out;
+}
+
+.card-text_4 button:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    transition: all .3s ease-in-out;
+}
+
+.card-text_4 ul{
+    list-style: none;
+}
+
+.card-items_5{
+    background-image: url(IMG/blus1\ front.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.card-text_5{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr 2fr;
+    gap: 5px;
+    align-self: end;
+    
+}
+
+.card-text_5--style{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr 2fr;
+    gap: 5px;
+    align-self: end;
+    display: none;
+}
+
+.card-text_5 h2{
+    justify-self: center;
+}
+
+.card-text_5 p{
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+.card-text_5 div p{
+    font-size: 15px;
+}
+
+.card-text_5 div{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    gap: 30px;
+}
+
+.card-text_5 div ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.card-text_5 div ul li{
+    justify-self: center;
+    padding: 5px;
+}
+
+.option-size_5{
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.option-size_5::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(59, 59, 59);
+    transition: all .5s ease-out;
+}
+
+.option-size_5:hover::after{
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+
+.card-text_5 button{
+    margin: 10px;
+    padding: 10px;
+    background: transparent;
+    transition: all .5s ease-in-out;
+}
+
+.card-text_5 button:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    transition: all .3s ease-in-out;
+}
+
+.card-text_5 ul{
+    list-style: none;
+}
+
+.card-items_6{
+    background-image: url(IMG/blus2\ front.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.card-text_6{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr 2fr;
+    gap: 5px;
+    align-self: end;
+    
+}
+
+.card-text_6--style{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr 2fr;
+    gap: 5px;
+    align-self: end;
+    display: none;
+}
+
+.card-text_6 h2{
+    justify-self: center;
+}
+
+.card-text_6 p{
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+.card-text_6 div p{
+    font-size: 15px;
+}
+
+.card-text_6 div{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    gap: 30px;
+}
+
+.card-text_6 div ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.card-text_6 div ul li{
+    justify-self: center;
+    padding: 5px;
+}
+
+.option-size_6{
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.option-size_6::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(59, 59, 59);
+    transition: all .5s ease-out;
+}
+
+.option-size_6:hover::after{
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+
+.card-text_6 button{
+    margin: 10px;
+    padding: 10px;
+    background: transparent;
+    transition: all .5s ease-in-out;
+}
+
+.card-text_6 button:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    transition: all .3s ease-in-out;
+}
+
+.card-text_6 ul{
+    list-style: none;
+}
+
+.card-items_7{
+    background-image: url(IMG/blus3\ front.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.card-text_7{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr 2fr;
+    gap: 5px;
+    align-self: end;
+    
+}
+
+.card-text_7--style{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr 2fr;
+    gap: 5px;
+    align-self: end;
+    display: none;
+}
+
+.card-text_7 h2{
+    justify-self: center;
+}
+
+.card-text_7 p{
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+.card-text_7 div p{
+    font-size: 15px;
+}
+
+.card-text_7 div{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    gap: 30px;
+}
+
+.card-text_7 div ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.card-text_7 div ul li{
+    justify-self: center;
+    padding: 5px;
+}
+
+.option-size_7{
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.option-size_7::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(59, 59, 59);
+    transition: all .5s ease-out;
+}
+
+.option-size_7:hover::after{
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+
+.card-text_7 button{
+    margin: 10px;
+    padding: 10px;
+    background: transparent;
+    transition: all .5s ease-in-out;
+}
+
+.card-text_7 button:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    transition: all .3s ease-in-out;
+}
+
+.card-text_7 ul{
+    list-style: none;
+}
+
+.card-items_8{
+    background-image: url(IMG/blus4\ front.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.card-text_8{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr 2fr;
+    gap: 5px;
+    align-self: end;
+    
+}
+
+.card-text_8--style{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr 2fr;
+    gap: 5px;
+    align-self: end;
+    display: none;
+}
+
+.card-text_8 h2{
+    justify-self: center;
+}
+
+.card-text_8 p{
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+.card-text_8 div p{
+    font-size: 15px;
+}
+
+.card-text_8 div{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    gap: 30px;
+}
+
+.card-text_8 div ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.card-text_8 div ul li{
+    justify-self: center;
+    padding: 5px;
+}
+
+.option-size_8{
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.option-size_8::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(59, 59, 59);
+    transition: all .5s ease-out;
+}
+
+.option-size_8:hover::after{
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+
+.card-text_8 button{
+    margin: 10px;
+    padding: 10px;
+    background: transparent;
+    transition: all .5s ease-in-out;
+}
+
+.card-text_8 button:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    transition: all .3s ease-in-out;
+}
+
+.card-text_8 ul{
+    list-style: none;
+}
+
+.footer-content{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 300px;
+}
+
+.footer-section_1{
+    display: grid;
+    padding: 30px;
+}
+
+.footer-section_1 ul{
+    list-style: none;
+}
+
+.footer-section_1 ul li{
+    padding: 10px;
+}
+
+.footer-section_title--1{
+    display: inline-flex;
+    flex-direction: column;
+    width: max-content;
+}
+
+.list-hombres{
+    cursor: pointer;
+    display: flex;
+    
+}
+
+.list-mujeres{
+    cursor: pointer;
+    
+}
+
+.footer-redes{
+    display: flex;
+}
+
+.footer-section_2{
+    display: grid;
+    grid-auto-rows: .5fr 1fr;
+}
+
+.footer-section_2 h3{
+    align-self: center;
+}
+
+.footer-section_2 ul{
+    list-style: none;
+}
+
+.footer-section_2 ul li{
+    padding: 5px;
+}
+
+.footer-section_2 ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-section_3{
+    display: grid;
+    grid-auto-rows: .5fr 1fr;
+}
+
+.footer-section_3 h3{
+    align-self: center;
+}
+
+.footer-section_3 ul{
+    list-style: none;
+}
+
+.footer-section_3 ul li{
+    padding: 5px;
+}
+
+.footer-section_3 ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-section_4{
+    display: grid;
+    grid-auto-rows: .5fr 1fr;
+}
+
+.footer-section_4 h3{
+    align-self: center;
+}
+
+.footer-section_4 ul{
+    list-style: none;
+}
+
+.footer-section_4 ul li{
+    padding: 5px;
+}
+
+/*OPCIONES DE COMPRA*/
+
+.button-buy{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.box-buy{
+    background-color: aliceblue;
+    height: 100vh;
+    width: 500px;
+    top: 1px;
+    position: fixed;
+    right: 1px;
+    z-index: 1;
+}
+
+.button-close{
+    background: transparent;
+    border: none;
+    transform: scale(1.5);
+    padding: 20px;
+    cursor: pointer;
+}
+
+.img-close{
+    display: none;
+}
+
+#list-buy{
+    transition: all .5s ease-in-out;
+}
+
+.content-list{
+    width: 500px;
+    height: 100vh;
+    display: block;
+    padding: 50px;
+}
+
+.total-buy{
+    display: flex;
+    margin: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

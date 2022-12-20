@@ -109,13 +109,13 @@
     display: flex;
     align-self: center;
     justify-self: center;
-    gap: 30px;
+    gap: 10px;
 }
 
 .card-text_1 div ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 5px;
 }
 
 .card-text_1 div ul li{
@@ -209,13 +209,13 @@
     display: flex;
     align-self: center;
     justify-self: center;
-    gap: 30px;
+    gap: 10px;
 }
 
 .card-text_2 div ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 5px;
 }
 
 .card-text_2 div ul li{
@@ -309,13 +309,13 @@
     display: flex;
     align-self: center;
     justify-self: center;
-    gap: 30px;
+    gap: 10px;
 }
 
 .card-text_3 div ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 5px;
 }
 
 .card-text_3 div ul li{
@@ -409,13 +409,13 @@
     display: flex;
     align-self: center;
     justify-self: center;
-    gap: 30px;
+    gap: 10px;
 }
 
 .card-text_4 div ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 5px;
 }
 
 .card-text_4 div ul li{
@@ -509,13 +509,13 @@
     display: flex;
     align-self: center;
     justify-self: center;
-    gap: 30px;
+    gap: 10px;
 }
 
 .card-text_5 div ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 5px;
 }
 
 .card-text_5 div ul li{
@@ -609,13 +609,13 @@
     display: flex;
     align-self: center;
     justify-self: center;
-    gap: 30px;
+    gap: 10px;
 }
 
 .card-text_6 div ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 5px;
 }
 
 .card-text_6 div ul li{
@@ -709,13 +709,13 @@
     display: flex;
     align-self: center;
     justify-self: center;
-    gap: 30px;
+    gap: 10px;
 }
 
 .card-text_7 div ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 5px;
 }
 
 .card-text_7 div ul li{
@@ -809,13 +809,13 @@
     display: flex;
     align-self: center;
     justify-self: center;
-    gap: 30px;
+    gap: 10px;
 }
 
 .card-text_8 div ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 5px;
 }
 
 .card-text_8 div ul li{
@@ -1009,6 +1009,254 @@
 .total-buy{
     display: flex;
     margin: 50px;
+}
+
+.header-icons_desglo{
+    display: none;
+}
+
+@media (max-width: 790px){
+    .body-pag{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .icon-menu{
+        display: block;
+    }
+
+    .header-pag{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        padding: 50px;
+    }
+    
+    .header-pag h1{
+        justify-self: center;
+        align-self: start;
+        font-size: 50px;
+    }
+    
+    .header-pag h1 a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .header-options{
+        display: none;
+        position: relative;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .header-icons{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: .5fr .5fr .5fr;
+        gap: 20px;
+        position: fixed;
+        background-color: aliceblue;
+        width: 300px;
+        top: .5px;
+        left: .5px;
+        height: 100vh;
+        z-index: 1;
+    }
+
+    .header-icons_desglo{
+        display: none;
+        grid-template-columns: 1fr;
+        grid-template-rows: .5fr .5fr .5fr;
+        gap: 20px;
+        position: fixed;
+        background-color: aliceblue;
+        width: 300px;
+        top: .5px;
+        left: .5px;
+        height: 100vh;
+        z-index: 1;
+    }
+
+    .header-icons a{
+        justify-self: center;
+    }
+
+    .header-options_icons{
+        list-style: none;
+        justify-self: center;
+    }
+
+    .header-options_icons li{
+        justify-self: center;
+        align-self: center;
+        padding: 10px;
+    }
+
+    .header-options_icons li img{
+        display: none;
+    }
+
+    .header-shop_icons{
+        display: none;
+        list-style: none;
+        justify-self: center;
+    }
+
+    .button-close_left{
+        background: transparent;
+        border: none;
+        transform: scale(1.5);
+        padding: 20px;
+        cursor: pointer;
+    }
+
+    .button-buy{
+        justify-self: center;
+    }
+
+}
+
+@media (max-width: 600px){
+    .body-pag{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .icon-menu{
+        display: block;
+    }
+
+    .header-pag{
+        display: grid;
+        grid-template-columns: .1fr 1fr;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .header-pag h1{
+        text-align: center;
+        justify-self: center;
+        font-size: 50px;
+    }
+    
+    .header-pag h1 a{
+        text-decoration: none;
+        color: black;
+        
+    }
+
+    .header-options{
+        display: none;
+        position: relative;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .header-icons{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: .5fr .5fr .5fr;
+        gap: 20px;
+        position: fixed;
+        background-color: aliceblue;
+        width: 300px;
+        top: .5px;
+        left: .5px;
+        height: 100vh;
+        z-index: 1;
+    }
+
+    .header-icons_desglo{
+        display: none;
+        grid-template-columns: 1fr;
+        grid-template-rows: .5fr .5fr .5fr;
+        gap: 20px;
+        position: fixed;
+        background-color: aliceblue;
+        width: 300px;
+        top: .5px;
+        left: .5px;
+        height: 100vh;
+        z-index: 1;
+    }
+
+    .header-icons a{
+        justify-self: center;
+    }
+
+    .header-options_icons{
+        list-style: none;
+        justify-self: center;
+    }
+
+    .header-options_icons li{
+        justify-self: center;
+        align-self: center;
+        padding: 10px;
+    }
+
+    .header-options_icons li img{
+        display: none;
+    }
+
+    .header-shop_icons{
+        display: none;
+        list-style: none;
+        justify-self: center;
+    }
+
+    .button-close_left{
+        background: transparent;
+        border: none;
+        transform: scale(1.5);
+        padding: 20px;
+        cursor: pointer;
+    }
+
+    .button-buy{
+        justify-self: center;
+    }
+
+    .content-list{
+        width: 200px;
+        height: 300vh;
+        display: block;
+        padding: 10px;
+    }
+
+    .box-buy{
+        background-color: aliceblue;
+        height: 300vh;
+        width: 300px;
+        top: 1px;
+        position: fixed;
+        right: 1px;
+        z-index: 1;
+    }
+
+    .footer-content{
+        background-color: antiquewhite;
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 200vh;
+    }
+
+    .footer-section_2{
+        padding: 20px;
+    }
+
+    .footer-section_3{
+         padding: 20px;
+     }
+
+     .footer-section_4{
+        padding: 20px;
+    }
+
+
 }
 
 

@@ -3,7 +3,8 @@ const buttonbuy = document.querySelector(".button-buy");
 const buttonclose = document.querySelector(".button-close");
 const contentlist = document.querySelector(".content-list");
 const totalbuy = document.querySelector(".total-buy");
-
+const iconmenu = document.querySelector(".icon-menu");
+const iconcloseleft = document.querySelector("#img-icon_close--left");
 
 let totalPago = 0;
 
@@ -11,12 +12,24 @@ buttonbuy.addEventListener("click", function(){
     $("#list-buy").addClass("box-buy");  
     $("#img-icon_close").css({"display":"block"});
     $("#content-list_compras").css({"display":"block"});
+    $("#desglo-head").addClass("header-icons_desglo");
+    $("#desglo-head").removeClass("header-icons");
 })
 
 buttonclose.addEventListener("click", function(){
     $("#list-buy").removeClass("box-buy");
     $("#img-icon_close").css({"display":"none"});
     $("#content-list_compras").css({"display":"none"});
+})
+
+iconmenu.addEventListener("click", function(){
+    $("#desglo-head").removeClass("header-icons_desglo");
+    $("#desglo-head").addClass("header-icons");
+})
+
+iconcloseleft.addEventListener("click", function(){
+    $("#desglo-head").addClass("header-icons_desglo");
+    $("#desglo-head").removeClass("header-icons");
 })
 
 $('.list-hombres').click(function(){
